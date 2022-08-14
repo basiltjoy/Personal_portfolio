@@ -1,0 +1,47 @@
+.timeline-panel {
+    width: calc( 100% - 55px );
+    float: right;
+    border: 1px solid #d4d4d4;
+    border-radius: 22px;
+    padding: 10px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgb(0 0 0 / 18%);
+    box-shadow: 0 1px 6px rgb(0 0 0 / 18%);
+}
+
+.timeline-panel{
+    width: 950px;
+    height: 500px;
+    scroll-snap-align: center;
+    margin-top: 0%;
+    margin-left: 0%;
+    
+}
+.timeline:before {
+    top: 70px;
+    bottom: 170px;
+    position: absolute;
+    width: 0px;
+    background-color: #CCCCCC;
+    left: 25px;
+    margin-left: -1.5px;
+}
+
+#projects{
+    margin-top: -32px;
+}
+
+h5{
+    font-weight: bolder;
+}
+
+img{
+    width:550px;
+    height: 50vh;
+    margin-left: 20px;
+    border-radius: 5px
+}
+
+.projects{
+    margin-left: 330px;
+}
