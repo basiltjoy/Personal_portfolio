@@ -13,14 +13,13 @@ export class HeaderComponent implements OnInit {
     this.showNotification()
   }
 
-  ngOnInit() {
-
+  ngOnInit() {   
   }
 
   showNotification() {
     this.notificationService.show({
       content: 'Welcome to my Portfolio',
-      hideAfter: 600,
+      hideAfter: 700,
       position: { horizontal: 'center', vertical: 'bottom' },
       animation: { type: 'slide', duration: 2500 },
       type: { style: 'info', icon: true }

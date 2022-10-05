@@ -10,10 +10,7 @@ import { environment } from '../../environments/environment';
     baseUrl = environment.baseUrl;
 
   constructor(
-    private http: HttpClient
   ) { }
 
-  contactus(data: any): Observable<any> {
-    return this.http.post('http://localhost:4200/contact',data);
-  }
+
   }

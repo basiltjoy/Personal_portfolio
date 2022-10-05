@@ -10,14 +10,9 @@ export class ProfileComponent implements OnInit {
   scrollToTop: any;
 
   constructor(
-    private spinner: NgxSpinnerService
   ) { }
 
   ngOnInit() {
-    this.spinner.show();
-    setTimeout(() => {
-        this.spinner.hide();
-    }, 2000);
   }
 
 

@@ -1,69 +1,69 @@
-.section{ 
-    padding: 70px 0;
-    position: relative;
-    background: #FFFFFF;
-    margin-left: 0%;
+.card {
+    height: 115px;
 }
 
-.card{
-    width: 929px;
-    margin-left: 103px;
-    height: 180px;
+b {
+    font-weight: bolder;
 }
 
-b{
-    font-weight:bolder;
-}
-
-.card-body{
+.card-body {
     background-color: darkcyan;
-    width: 25%;
- .music{  
-    margin-left: 6%;
-    .fa-music{
-        font-size: 320%;
-        margin-left: 0%;
+    .music {
+        .fa-music {
+            font-size: 320%;
+        }
+        b {
+            font-size: 14px;
+        }
     }
-    b{
-        font-size: 15px;
-        margin-left: 6%;
-    }
- }
 }
 
-.card-body{
+.card-body {
     background-color: darkcyan;
- .travel{
-    margin-left: 0%;
-    .fa-bus{
-        font-size: 320%;
-        margin-left: 25%;
+    .travel {
+        .fa-bus {
+            font-size: 320%;
+        }
+        b {
+            font-size: 15px;
+            word-wrap: break-word;
+        }
     }
-    b{
-        font-size: 15px;
-    }
- }
-}  
+}
 
-.card-body{
+.card-body {
     background-color: darkcyan;
- .photography{
-    margin-left: 0%;
-    .fa-camera{
-        font-size: 320%;
-        margin-left: 25%;
+    .photography {
+        .fa-camera {
+            font-size: 320%;
+        }
+        b {
+            font-size: 13px;
+            word-wrap: break-word;
+        }
     }
-    b{
-        font-size: 13px;
-        word-wrap: break-word;
-    }
- }
 }
 
-.coding{
-    margin-left: 13%;
+.card-body {
+    background-color: darkcyan;
+    .coding {
+        b {
+            font-size: 13px;
+            word-wrap: break-word;
+        }
+    }
 }
 
-.volleyball{
-    margin-left: 13%;
+.card-body {
+    background-color: darkcyan;
+    .volleyball {
+        .fa-volleyball-ball {
+            font-size: 320%;
+        }
+        b {
+            font-size: 13px;
+            word-wrap: break-word;
+        }
+    }
 }
+
